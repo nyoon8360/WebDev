@@ -10,6 +10,8 @@ img {
     float: left;
     margin-right: 50px;
     margin-bottom: 50px;
+    cursor: pointer;
+    max-width: 300px;
 }
 
 p, li {
@@ -40,6 +42,18 @@ table {
     float: left
 }
 
+.fadeimg {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.fadeimg2 {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 #tableandlist {
     clear: left;
 }
@@ -53,16 +67,8 @@ table {
     padding-left: 20px;
 }
 
-.fadeimg {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.fadeimg2 {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+#keshi, #dprian, #shymartin, #slchld, #lauv {
+    font-weight: bold;
 }
 
 @keyframes fadeInAnimation {
