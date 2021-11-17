@@ -1,0 +1,58 @@
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    margin: 5vh 5vw 5vh;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+th, td {
+    padding: 5px;
+    width: 12vw;
+}
+
+th {
+    background-color: #ffdcad;
+}
+
+table {
+    float: left
+}
+
+#tableandlist {
+    clear: left;
+}
+
+#textrightofimage {
+    margin-left: 350px;
+}
+
+#regretlist {
+    margin-left: 52vw;
+    padding-left: 20px;
+}
