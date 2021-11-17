@@ -6,23 +6,21 @@ body {
     margin: 5vh 5vw 5vh;
 }
 
-p {
-    font-size: 18px;
+img {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    max-width: 300px;
 }
 
-li {
+p, li {
     font-size: 18px;
 }
 
 h1 {
     font-size: 40px;
     text-align: center;
-}
-
-img {
-    float: left;
-    margin-right: 50px;
-    margin-bottom: 50px;
 }
 
 table, th, td {
@@ -44,6 +42,18 @@ table {
     float: left
 }
 
+.fadeimg {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.fadeimg2 {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 #tableandlist {
     clear: left;
 }
@@ -55,4 +65,17 @@ table {
 #regretlist {
     margin-left: 52vw;
     padding-left: 20px;
+}
+
+#keshi, #dprian, #shymartin, #slchld, #lauv {
+    font-weight: bold;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
